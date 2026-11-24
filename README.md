@@ -3,7 +3,7 @@
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.wolfeleo2.solaricons/solar-icons-all.svg)](https://central.sonatype.com/namespace/io.github.wolfeleo2.solaricons)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A 100% complete, modular, high-performance **Compose Multiplatform** port of the stunning [Solar Icon Set](https://solar-icons.com/) by 480 Design.
+A 100% complete, modular, high-performance **Compose Multiplatform** port of the stunning [Solar Icon Set](https://solar-icons.dev/) by 480 Design.
 
 Supports **7,300+ icons** across all 6 official styles with first-class Compose Multiplatform support:
 - **Android**
