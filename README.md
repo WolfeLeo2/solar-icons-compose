@@ -1,6 +1,6 @@
 # Solar Icons for Compose Multiplatform
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.wolfeleo2.solaricons/solar-icons-all.svg)](https://central.sonatype.com/namespace/com.wolfeleo2.solaricons)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.wolfeleo2.solaricons/solar-icons-all.svg)](https://central.sonatype.com/namespace/io.github.wolfeleo2.solaricons)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A 100% complete, modular, high-performance **Compose Multiplatform** port of the stunning [Solar Icon Set](https://solar-icons.com/) by 480 Design.
@@ -44,21 +44,21 @@ solarIcons = "1.0.0"
 
 [libraries]
 # Core definitions & @Composable SolarIcon helper
-solar-icons-core = { module = "com.wolfeleo2.solaricons:solar-icons-core", version.ref = "solarIcons" }
+solar-icons-core = { module = "io.github.wolfeleo2.solaricons:solar-icons-core", version.ref = "solarIcons" }
 
 # Modular styles (add only what you need):
-solar-icons-bold = { module = "com.wolfeleo2.solaricons:solar-icons-bold", version.ref = "solarIcons" }
-solar-icons-bold-duotone = { module = "com.wolfeleo2.solaricons:solar-icons-bold-duotone", version.ref = "solarIcons" }
-solar-icons-linear = { module = "com.wolfeleo2.solaricons:solar-icons-linear", version.ref = "solarIcons" }
-solar-icons-line-duotone = { module = "com.wolfeleo2.solaricons:solar-icons-line-duotone", version.ref = "solarIcons" }
-solar-icons-broken = { module = "com.wolfeleo2.solaricons:solar-icons-broken", version.ref = "solarIcons" }
-solar-icons-outline = { module = "com.wolfeleo2.solaricons:solar-icons-outline", version.ref = "solarIcons" }
+solar-icons-bold = { module = "io.github.wolfeleo2.solaricons:solar-icons-bold", version.ref = "solarIcons" }
+solar-icons-bold-duotone = { module = "io.github.wolfeleo2.solaricons:solar-icons-bold-duotone", version.ref = "solarIcons" }
+solar-icons-linear = { module = "io.github.wolfeleo2.solaricons:solar-icons-linear", version.ref = "solarIcons" }
+solar-icons-line-duotone = { module = "io.github.wolfeleo2.solaricons:solar-icons-line-duotone", version.ref = "solarIcons" }
+solar-icons-broken = { module = "io.github.wolfeleo2.solaricons:solar-icons-broken", version.ref = "solarIcons" }
+solar-icons-outline = { module = "io.github.wolfeleo2.solaricons:solar-icons-outline", version.ref = "solarIcons" }
 
 # Or the all-in-one umbrella:
-solar-icons-all = { module = "com.wolfeleo2.solaricons:solar-icons-all", version.ref = "solarIcons" }
+solar-icons-all = { module = "io.github.wolfeleo2.solaricons:solar-icons-all", version.ref = "solarIcons" }
 
 # Or the BOM:
-solar-icons-bom = { module = "com.wolfeleo2.solaricons:solar-icons-bom", version.ref = "solarIcons" }
+solar-icons-bom = { module = "io.github.wolfeleo2.solaricons:solar-icons-bom", version.ref = "solarIcons" }
 ```
 
 Then in your `build.gradle.kts`:
@@ -92,9 +92,9 @@ dependencies {
 
 ```kotlin
 // Multiplatform (commonMain) or Android (dependencies):
-implementation("com.wolfeleo2.solaricons:solar-icons-core:1.0.0")
-implementation("com.wolfeleo2.solaricons:solar-icons-bold-duotone:1.0.0")
-implementation("com.wolfeleo2.solaricons:solar-icons-linear:1.0.0")
+implementation("io.github.wolfeleo2.solaricons:solar-icons-core:1.0.0")
+implementation("io.github.wolfeleo2.solaricons:solar-icons-bold-duotone:1.0.0")
+implementation("io.github.wolfeleo2.solaricons:solar-icons-linear:1.0.0")
 ```
 
 ---
@@ -108,9 +108,9 @@ All icons expose standard Compose `ImageVector` instances and work directly with
 ```kotlin
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import com.wolfeleo2.solaricons.SolarIcons
-import com.wolfeleo2.solaricons.boldduotone.Home
-import com.wolfeleo2.solaricons.linear.Bell
+import io.github.wolfeleo2.solaricons.SolarIcons
+import io.github.wolfeleo2.solaricons.boldduotone.Home
+import io.github.wolfeleo2.solaricons.linear.Bell
 
 @Composable
 fun MyScreen() {
@@ -135,9 +135,9 @@ For fine-grained dual-color duotone styling (like the Solar Icons web showcase):
 
 ```kotlin
 import androidx.compose.ui.graphics.Color
-import com.wolfeleo2.solaricons.SolarIcon
-import com.wolfeleo2.solaricons.SolarIcons
-import com.wolfeleo2.solaricons.boldduotone.User
+import io.github.wolfeleo2.solaricons.SolarIcon
+import io.github.wolfeleo2.solaricons.SolarIcons
+import io.github.wolfeleo2.solaricons.boldduotone.User
 
 @Composable
 fun ProfileHeader() {
