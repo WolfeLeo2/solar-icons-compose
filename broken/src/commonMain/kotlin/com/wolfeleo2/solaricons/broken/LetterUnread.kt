@@ -1,0 +1,23 @@
+package com.wolfeleo2.solaricons.broken
+
+import androidx.compose.ui.graphics.PathFillType
+import com.wolfeleo2.solaricons.SolarIcons
+import com.wolfeleo2.solaricons.core.IconPath
+import com.wolfeleo2.solaricons.core.SolarIcon
+
+public val SolarIcons.Broken.LetterUnread: SolarIcon
+    get() {
+        if (_letterUnread != null) return _letterUnread!!
+        _letterUnread = SolarIcon(
+            name = "Solar.Broken.LetterUnread",
+            secondaryPaths = emptyList(),
+            primaryPaths = listOf(
+                IconPath("M2 12C2 15.7712 2 17.6569 3.17157 18.8284C4.34315 20 6.22876 20 10 20H14C17.7712 20 19.6569 20 20.8284 18.8284C22 17.6569 22 15.7712 22 12C22 11.0542 22.0185 10.7271 22 10M13 4H10C6.22876 4 4.34315 4 3.17157 5.17157C2.51839 5.82475 2.22937 6.69989 2.10149 8"),
+                IconPath("M6 8L7.66438 9.38699M15.8411 9.79908C14.0045 11.3296 13.0861 12.0949 12 12.0949C11.3507 12.0949 10.7614 11.8214 10 11.2744"),
+                IconPath("M19.0 2.0 a3.0 3.0 0 1 0 0 6.0 a3.0 3.0 0 1 0 0 -6.0z"),
+            ),
+        )
+        return _letterUnread!!
+    }
+
+private var _letterUnread: SolarIcon? = null

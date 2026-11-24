@@ -1,0 +1,24 @@
+package com.wolfeleo2.solaricons.lineduotone
+
+import androidx.compose.ui.graphics.PathFillType
+import com.wolfeleo2.solaricons.SolarIcons
+import com.wolfeleo2.solaricons.core.IconPath
+import com.wolfeleo2.solaricons.core.SolarIcon
+
+public val SolarIcons.LineDuotone.PostsCarouselVertical: SolarIcon
+    get() {
+        if (_postsCarouselVertical != null) return _postsCarouselVertical!!
+        _postsCarouselVertical = SolarIcon(
+            name = "Solar.LineDuotone.PostsCarouselVertical",
+            secondaryPaths = listOf(
+                IconPath("M19 2V2.5C19 3.88071 17.8807 5 16.5 5H7.5C6.11929 5 5 3.88071 5 2.5V2"),
+                IconPath("M19 22V21.5C19 20.1193 17.8807 19 16.5 19H7.5C6.11929 19 5 20.1193 5 21.5V22"),
+            ),
+            primaryPaths = listOf(
+                IconPath("M5 11.5C5 9.61438 5 8.67157 5.58579 8.08579C6.17157 7.5 7.11438 7.5 9 7.5H15C16.8856 7.5 17.8284 7.5 18.4142 8.08579C19 8.67157 19 9.61438 19 11.5V12.5C19 14.3856 19 15.3284 18.4142 15.9142C17.8284 16.5 16.8856 16.5 15 16.5H9C7.11438 16.5 6.17157 16.5 5.58579 15.9142C5 15.3284 5 14.3856 5 12.5V11.5Z"),
+            ),
+        )
+        return _postsCarouselVertical!!
+    }
+
+private var _postsCarouselVertical: SolarIcon? = null

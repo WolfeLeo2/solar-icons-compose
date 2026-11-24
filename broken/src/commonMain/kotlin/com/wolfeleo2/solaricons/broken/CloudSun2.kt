@@ -1,0 +1,27 @@
+package com.wolfeleo2.solaricons.broken
+
+import androidx.compose.ui.graphics.PathFillType
+import com.wolfeleo2.solaricons.SolarIcons
+import com.wolfeleo2.solaricons.core.IconPath
+import com.wolfeleo2.solaricons.core.SolarIcon
+
+public val SolarIcons.Broken.CloudSun2: SolarIcon
+    get() {
+        if (_cloudSun2 != null) return _cloudSun2!!
+        _cloudSun2 = SolarIcon(
+            name = "Solar.Broken.CloudSun2",
+            secondaryPaths = emptyList(),
+            primaryPaths = listOf(
+                IconPath("M22 16.3529C22 19.4717 19.4416 22 16.2857 22H11M14.381 11.0272C14.9767 10.8191 15.6178 10.7059 16.2857 10.7059C16.9404 10.7059 17.5693 10.8147 18.1551 11.015M7.11616 13.6089C6.8475 13.5567 6.56983 13.5294 6.28571 13.5294C3.91878 13.5294 2 15.4256 2 17.7647C2 20.1038 3.91878 22 6.28571 22H7M7.11616 13.6089C6.88706 12.9978 6.7619 12.3369 6.7619 11.6471C6.7619 8.52827 9.32028 6 12.4762 6C15.4159 6 17.8371 8.19371 18.1551 11.015M7.11616 13.6089C7.68059 13.7184 8.20528 13.9374 8.66667 14.2426M18.1551 11.015C18.8381 11.2485 19.4623 11.6065 20 12.0614"),
+                IconPath("M8 4.5C6.067 4.5 4.5 6.067 4.5 8C4.5 9.3962 5.31753 10.6015 6.5 11.1632M8 4.5C8.74362 4.5 9.43308 4.73191 10 5.12734M8 4.5C7.25638 4.5 6.56692 4.73191 6 5.12734M8 4.5C8.95365 4.5 9.81822 4.88141 10.4495 5.5M8 4.5C7.04635 4.5 6.18178 4.88141 5.55051 5.5M8 4.5C9.27316 4.5 10.3876 5.17979 11 6.19621"),
+                IconPath("M7.5 2V2.5"),
+                IconPath("M2.5 7.5L2 7.5"),
+                IconPath("M11.3887 3.61084L11.1726 3.8269"),
+                IconPath("M3.82715 11.1729L3.61109 11.3889"),
+                IconPath("M3.82715 3.82715L3.61109 3.61109"),
+            ),
+        )
+        return _cloudSun2!!
+    }
+
+private var _cloudSun2: SolarIcon? = null

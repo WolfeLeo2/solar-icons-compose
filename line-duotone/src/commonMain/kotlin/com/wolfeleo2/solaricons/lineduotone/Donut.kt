@@ -1,0 +1,35 @@
+package com.wolfeleo2.solaricons.lineduotone
+
+import androidx.compose.ui.graphics.PathFillType
+import com.wolfeleo2.solaricons.SolarIcons
+import com.wolfeleo2.solaricons.core.IconPath
+import com.wolfeleo2.solaricons.core.SolarIcon
+
+public val SolarIcons.LineDuotone.Donut: SolarIcon
+    get() {
+        if (_donut != null) return _donut!!
+        _donut = SolarIcon(
+            name = "Solar.LineDuotone.Donut",
+            secondaryPaths = listOf(
+                IconPath("M2 13C2 13 4.20085 15 6 15C7.21199 15 8.60628 14.0924 9.38725 13.5"),
+                IconPath("M14 14.2236C14.4713 14.6389 15.0875 15 15.8053 15C17.4948 15 17.4948 13 19.1842 13C20.2618 13 21.1102 13.8136 21.5835 14.4029"),
+                IconPath("M19 7L20 6"),
+                IconPath("M10.5 7L9.13397 7.36603"),
+                IconPath("M16.6499 8.9766L16.7162 10.3893"),
+                IconPath("M7 5L6 4"),
+                IconPath("M3.68268 10.3498L3.60402 8.93781"),
+            ),
+            primaryPaths = listOf(
+                IconPath("M12.0 2.0 a10.0 10.0 0 1 0 0 20.0 a10.0 10.0 0 1 0 0 -20.0z"),
+                IconPath("M12.0 9.0 a3.0 3.0 0 1 0 0 6.0 a3.0 3.0 0 1 0 0 -6.0z"),
+                IconPath("M14.5 7L16 5"),
+                IconPath("M12 5L11 4"),
+                IconPath("M20.6777 10.085L18.9996 11.5629"),
+                IconPath("M6.79245 9.14385L6.20722 7.85641"),
+                IconPath("M5.66489 12.6412L6.50012 11.5"),
+            ),
+        )
+        return _donut!!
+    }
+
+private var _donut: SolarIcon? = null

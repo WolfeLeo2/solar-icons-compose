@@ -1,0 +1,21 @@
+package com.wolfeleo2.solaricons.broken
+
+import androidx.compose.ui.graphics.PathFillType
+import com.wolfeleo2.solaricons.SolarIcons
+import com.wolfeleo2.solaricons.core.IconPath
+import com.wolfeleo2.solaricons.core.SolarIcon
+
+public val SolarIcons.Broken.MapArrowRight: SolarIcon
+    get() {
+        if (_mapArrowRight != null) return _mapArrowRight!!
+        _mapArrowRight = SolarIcon(
+            name = "Solar.Broken.MapArrowRight",
+            secondaryPaths = emptyList(),
+            primaryPaths = listOf(
+                IconPath("M14 16.5974L21.0072 13.4725C22.3309 12.8822 22.3309 11.1178 21.0072 10.5275L4.49746 3.16496C3.00163 2.49789 1.45007 3.97914 2.19099 5.36689L5.34302 11.2706C5.58818 11.7298 5.58817 12.2702 5.34302 12.7294L2.19099 18.6331C1.45006 20.0209 3.00163 21.5021 4.49746 20.835L9.24873 18.7162"),
+            ),
+        )
+        return _mapArrowRight!!
+    }
+
+private var _mapArrowRight: SolarIcon? = null

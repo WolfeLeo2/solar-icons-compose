@@ -1,0 +1,24 @@
+package com.wolfeleo2.solaricons.lineduotone
+
+import androidx.compose.ui.graphics.PathFillType
+import com.wolfeleo2.solaricons.SolarIcons
+import com.wolfeleo2.solaricons.core.IconPath
+import com.wolfeleo2.solaricons.core.SolarIcon
+
+public val SolarIcons.LineDuotone.Iphone: SolarIcon
+    get() {
+        if (_iphone != null) return _iphone!!
+        _iphone = SolarIcon(
+            name = "Solar.LineDuotone.Iphone",
+            secondaryPaths = listOf(
+                IconPath("M15 19H9"),
+                IconPath("M16.7483 2.37744L16.6641 2.50361C15.9081 3.63769 15.53 4.20476 14.9779 4.54787C14.8681 4.61609 14.754 4.67715 14.6363 4.73066C14.0446 4.99976 13.3631 4.99976 12 4.99976C10.637 4.99976 9.95552 4.99976 9.36375 4.73066C9.24608 4.67715 9.13199 4.61609 9.0222 4.54787C8.47004 4.20476 8.09201 3.63771 7.33594 2.50361L7.25183 2.37744"),
+            ),
+            primaryPaths = listOf(
+                IconPath("M4 10C4 6.22876 4 4.34315 5.17157 3.17157C6.34315 2 8.22876 2 12 2C15.7712 2 17.6569 2 18.8284 3.17157C20 4.34315 20 6.22876 20 10V14C20 17.7712 20 19.6569 18.8284 20.8284C17.6569 22 15.7712 22 12 22C8.22876 22 6.34315 22 5.17157 20.8284C4 19.6569 4 17.7712 4 14V10Z"),
+            ),
+        )
+        return _iphone!!
+    }
+
+private var _iphone: SolarIcon? = null

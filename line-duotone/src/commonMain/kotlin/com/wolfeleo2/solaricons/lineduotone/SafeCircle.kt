@@ -1,0 +1,28 @@
+package com.wolfeleo2.solaricons.lineduotone
+
+import androidx.compose.ui.graphics.PathFillType
+import com.wolfeleo2.solaricons.SolarIcons
+import com.wolfeleo2.solaricons.core.IconPath
+import com.wolfeleo2.solaricons.core.SolarIcon
+
+public val SolarIcons.LineDuotone.SafeCircle: SolarIcon
+    get() {
+        if (_safeCircle != null) return _safeCircle!!
+        _safeCircle = SolarIcon(
+            name = "Solar.LineDuotone.SafeCircle",
+            secondaryPaths = listOf(
+                IconPath("M7 8L7 16"),
+                IconPath("M16 10L17 9"),
+                IconPath("M11 15L12 14"),
+                IconPath("M12 10L11 9"),
+                IconPath("M17 15L16 14"),
+            ),
+            primaryPaths = listOf(
+                IconPath("M2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12Z"),
+                IconPath("M12 12C12 10.8954 12.8954 10 14 10C15.1046 10 16 10.8954 16 12C16 13.1046 15.1046 14 14 14C12.8954 14 12 13.1046 12 12Z"),
+            ),
+        )
+        return _safeCircle!!
+    }
+
+private var _safeCircle: SolarIcon? = null

@@ -1,0 +1,24 @@
+package com.wolfeleo2.solaricons.linear
+
+import androidx.compose.ui.graphics.PathFillType
+import com.wolfeleo2.solaricons.SolarIcons
+import com.wolfeleo2.solaricons.core.IconPath
+import com.wolfeleo2.solaricons.core.SolarIcon
+
+public val SolarIcons.Linear.Chart: SolarIcon
+    get() {
+        if (_chart != null) return _chart!!
+        _chart = SolarIcon(
+            name = "Solar.Linear.Chart",
+            secondaryPaths = emptyList(),
+            primaryPaths = listOf(
+                IconPath("M22 22H2"),
+                IconPath("M21 22V14.5C21 13.6716 20.3284 13 19.5 13H16.5C15.6716 13 15 13.6716 15 14.5V22"),
+                IconPath("M15 22V5C15 3.58579 15 2.87868 14.5607 2.43934C14.1213 2 13.4142 2 12 2C10.5858 2 9.87868 2 9.43934 2.43934C9 2.87868 9 3.58579 9 5V22"),
+                IconPath("M9 22V9.5C9 8.67157 8.32843 8 7.5 8H4.5C3.67157 8 3 8.67157 3 9.5V22"),
+            ),
+        )
+        return _chart!!
+    }
+
+private var _chart: SolarIcon? = null

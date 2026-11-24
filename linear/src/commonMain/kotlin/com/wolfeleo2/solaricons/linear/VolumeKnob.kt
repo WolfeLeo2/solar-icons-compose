@@ -1,0 +1,29 @@
+package com.wolfeleo2.solaricons.linear
+
+import androidx.compose.ui.graphics.PathFillType
+import com.wolfeleo2.solaricons.SolarIcons
+import com.wolfeleo2.solaricons.core.IconPath
+import com.wolfeleo2.solaricons.core.SolarIcon
+
+public val SolarIcons.Linear.VolumeKnob: SolarIcon
+    get() {
+        if (_volumeKnob != null) return _volumeKnob!!
+        _volumeKnob = SolarIcon(
+            name = "Solar.Linear.VolumeKnob",
+            secondaryPaths = emptyList(),
+            primaryPaths = listOf(
+                IconPath("M12.0 7.0 a5.0 5.0 0 1 0 0 10.0 a5.0 5.0 0 1 0 0 -10.0z"),
+                IconPath("M12 7V11"),
+                IconPath("M13 3.5C13 4.05228 12.5523 4.5 12 4.5C11.4477 4.5 11 4.05228 11 3.5C11 2.94772 11.4477 2.5 12 2.5C12.5523 2.5 13 2.94772 13 3.5Z"),
+                IconPath("M20.5 13C19.9477 13 19.5 12.5523 19.5 12C19.5 11.4477 19.9477 11 20.5 11C21.0523 11 21.5 11.4477 21.5 12C21.5 12.5523 21.0523 13 20.5 13Z"),
+                IconPath("M3.5 13C2.94772 13 2.5 12.5523 2.5 12C2.5 11.4477 2.94772 11 3.5 11C4.05228 11 4.5 11.4477 4.5 12C4.5 12.5523 4.05228 13 3.5 13Z"),
+                IconPath("M6.69667 5.28252C7.08719 5.67304 7.08719 6.30621 6.69667 6.69673C6.30615 7.08726 5.67298 7.08726 5.28246 6.69673C4.89193 6.30621 4.89193 5.67304 5.28246 5.28252C5.67298 4.89199 6.30615 4.89199 6.69667 5.28252Z"),
+                IconPath("M18.7175 17.3034C19.108 17.6939 19.108 18.3271 18.7175 18.7176C18.327 19.1081 17.6938 19.1081 17.3033 18.7176C16.9127 18.3271 16.9127 17.6939 17.3033 17.3034C17.6938 16.9129 18.327 16.9129 18.7175 17.3034Z"),
+                IconPath("M18.7175 6.69673C18.327 7.08726 17.6939 7.08726 17.3033 6.69673C16.9128 6.30621 16.9128 5.67304 17.3033 5.28252C17.6939 4.89199 18.327 4.89199 18.7175 5.28252C19.1081 5.67304 19.1081 6.30621 18.7175 6.69673Z"),
+                IconPath("M6.69667 18.7175C6.30615 19.108 5.67298 19.108 5.28246 18.7175C4.89193 18.327 4.89193 17.6938 5.28246 17.3033C5.67298 16.9127 6.30615 16.9127 6.69667 17.3033C7.08719 17.6938 7.08719 18.327 6.69667 18.7175Z"),
+            ),
+        )
+        return _volumeKnob!!
+    }
+
+private var _volumeKnob: SolarIcon? = null

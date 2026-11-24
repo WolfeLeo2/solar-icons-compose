@@ -1,0 +1,28 @@
+package com.wolfeleo2.solaricons.broken
+
+import androidx.compose.ui.graphics.PathFillType
+import com.wolfeleo2.solaricons.SolarIcons
+import com.wolfeleo2.solaricons.core.IconPath
+import com.wolfeleo2.solaricons.core.SolarIcon
+
+public val SolarIcons.Broken.SirenRounded: SolarIcon
+    get() {
+        if (_sirenRounded != null) return _sirenRounded!!
+        _sirenRounded = SolarIcon(
+            name = "Solar.Broken.SirenRounded",
+            secondaryPaths = emptyList(),
+            primaryPaths = listOf(
+                IconPath("M20 22V16C20 11.5817 16.4183 8 12 8C9.03887 8 6.4535 9.60879 5.07026 12M4 22V16"),
+                IconPath("M14.2905 11.5C15.2932 11.9059 16.0939 12.7065 16.4998 13.7092"),
+                IconPath("M12 2V5"),
+                IconPath("M21 6L19.5 7.5"),
+                IconPath("M3 6L4.5 7.5"),
+                IconPath("M13.5 17.5C13.5 18.3284 12.8284 19 12 19C11.1716 19 10.5 18.3284 10.5 17.5C10.5 16.6716 11.1716 16 12 16C12.8284 16 13.5 16.6716 13.5 17.5Z"),
+                IconPath("M12 19V22"),
+                IconPath("M2 22H14M22 22H18"),
+            ),
+        )
+        return _sirenRounded!!
+    }
+
+private var _sirenRounded: SolarIcon? = null
