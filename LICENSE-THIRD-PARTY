@@ -1,0 +1,14 @@
+THIRD-PARTY LICENSES
+
+Solar Icon Set
+  By 480 Design: https://www.figma.com/community/file/1166831539721848736
+  License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+  https://creativecommons.org/licenses/by/4.0/
+
+  The icon artwork (the path data in the style modules) is derived from the Solar Icon Set.
+  You may use it commercially and non-commercially, but you must give appropriate credit
+  to 480 Design as required by CC BY 4.0.
+
+SVG catalogue
+  The icons are generated from the normalized catalogue in https://github.com/saoudi-h/solar-icons
+  (packages/core/svgs), Copyright (c) Saoudi Hakim, MIT License.
